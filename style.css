@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: large;
+}
+
+.clicker {
+  height: 300px;
+  width: 400px;
+}
+
+.button {
+  text-align: center;
+}
+
+.quotesbox {
+  background-color: cyan;
+  height: 32px;
+}
+
+.buildings {
+  margin-top: 100px;
+}
+
+.cursorbox {
+  display: flex;
+  gap: 50px;
+}
