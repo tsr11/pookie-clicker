@@ -1,6 +1,7 @@
 var cookies = 0;
 var increment = 1;
 var cps = 0;
+var cursors = 0;
 quotes = [
   "I love balls",
   "Them balls are cool",
@@ -21,5 +22,6 @@ function buycursor() {
     cps += 0.1;
     document.getElementById("pps").innerHTML = cps;
     document.getElementById("pookies").innerHTML = cookies;
+    document.getElementById("noofcursors").innerHTML = cursors += 1;
   }
 }

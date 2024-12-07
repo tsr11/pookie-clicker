@@ -1,3 +1,13 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 75vh;
+  margin: 0;
+  padding: 0;
+  background-color: #495057;
+  color: #fff;
+}
+
 h1 {
   text-align: center;
 }
@@ -7,12 +17,16 @@ p {
   font-size: large;
 }
 
-.clicker {
-  height: 300px;
-  width: 400px;
+main {
+  display: flex;
+  gap: 512px;
+}
+.mainthing {
+  text-align: left;
+  margin: 50px;
 }
 
-.button {
+.main .button {
   text-align: center;
 }
 
@@ -28,4 +42,8 @@ p {
 .cursorbox {
   display: flex;
   gap: 50px;
+}
+
+.cookie:hover {
+  opacity: 0.8;
 }
